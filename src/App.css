@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+background-image: url('./background.jpg'); /* Ensure this path is correct */
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  background: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Landing page */
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  padding: 20px;
+}
