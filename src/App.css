@@ -1,46 +1,25 @@
+/* App.css */
+.background-image {
+  background-image: url('path/to/your/image.jpg'); /* Replace with your image path */
+  background-size: cover; /* Ensure the image covers the whole screen */
+  background-position: center center; /* Position the image at the center */
+  height: 100vh; /* Ensure the background image covers the full height */
+  width: 100%; /* Ensure it covers the full width */
+}
+
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
-background-image: url('./background.jpg'); /* Ensure this path is correct */
-  background-size: cover;
-  background-position: center;
 }
 
-header {
-  background: #fff;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-}
-
-nav a {
-  margin-right: 15px;
-  text-decoration: none;
-  color: #333;
-}
-
-h1, h2, h3 {
-  color: #333;
+.landing-page {
+  text-align: center;
+  padding: 50px;
+  color: white;
 }
 
 button {
-  background-color: #4CAF50;
-  color: white;
   padding: 10px 20px;
-  border: none;
+  font-size: 16px;
   cursor: pointer;
-}
-
-button:hover {
-  background-color: #45a049;
-}
-
-/* Landing page */
-body {
-  background-image: url('background.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-section {
-  padding: 20px;
 }
