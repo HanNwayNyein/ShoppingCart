@@ -1,4 +1,4 @@
-# ShoppingCart
+#e-plantShopping
 
 # Getting Started with Create React App
 
